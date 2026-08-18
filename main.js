@@ -1,7 +1,6 @@
 import { readOperation, collectInputs } from "./input.js";
 import { getOperationData, executeOperation } from "./operation.js";
 
-// Get the operation chosen by the user
 const operation = await readOperation();
 
 const operationData = getOperationData(operation);
